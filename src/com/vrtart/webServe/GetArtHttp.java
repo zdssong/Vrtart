@@ -376,11 +376,9 @@ public class GetArtHttp {
 		} catch (ClientProtocolException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-			Log.e("ClientProtocolException", e.toString());
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-			Log.e("IOException", e.toString());
 		}
 
 	}
