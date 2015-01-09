@@ -13,7 +13,6 @@ import android.widget.LinearLayout;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.TextView;
 import android.widget.Toast;
-import cn.trinea.android.common.view.DropDownListView;
 
 import com.vrtart.R;
 import com.vrtart.adapter.ArtListAdapter;
@@ -23,6 +22,7 @@ import com.vrtart.contants.ArtContants;
 import com.vrtart.models.Commend;
 import com.vrtart.models.Information;
 import com.vrtart.webServe.GetArtHttp;
+import com.wt.common.view.DropDownListView;
 
 public class ArtSearchActivity extends BaseActivity implements
 		OnItemClickListener {

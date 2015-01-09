@@ -116,7 +116,7 @@
                 android:id="@+id/seperate_line"
                 style="@style/subscribe_seperate_line" />
 
-            <com.vrtart.view.DragGrid
+            <com.sevenart.view.DragGrid
                 android:id="@+id/userGridView"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -141,7 +141,7 @@
                 android:layout_marginBottom="14.0dip"
                 android:text="@string/subscribe_more_category" />
 
-            <com.vrtart.view.OtherGridView
+            <com.sevenart.view.OtherGridView
                 android:id="@+id/otherGridView"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"

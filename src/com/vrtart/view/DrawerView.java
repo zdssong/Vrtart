@@ -7,8 +7,6 @@ import android.view.View.OnClickListener;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
-import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu.OnClosedListener;
 import com.vrtart.AboutActivity;
 import com.vrtart.CareActivity;
 import com.vrtart.CollectActivity;
@@ -17,6 +15,8 @@ import com.vrtart.PaimaiActivity;
 import com.vrtart.R;
 import com.vrtart.SettingsActivity;
 import com.vrtart.contants.ArtContants;
+import com.wt.slidingmenu.lib.SlidingMenu;
+import com.wt.slidingmenu.lib.SlidingMenu.OnClosedListener;
 
 /**
  * 自定义SlidingMenu 测拉菜单类

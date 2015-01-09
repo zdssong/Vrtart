@@ -5,9 +5,6 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import cn.trinea.android.common.view.DropDownListView;
-import cn.trinea.android.common.view.DropDownListView.OnDropDownListener;
-
 import com.vrtart.ArtAuctionActivity;
 import com.vrtart.ArtShowActivity;
 import com.vrtart.R;
@@ -16,6 +13,8 @@ import com.vrtart.application.ArtApplication;
 import com.vrtart.contants.ArtContants;
 import com.vrtart.models.Information;
 import com.vrtart.webServe.GetArtHttp;
+import com.wt.common.view.DropDownListView;
+import com.wt.common.view.DropDownListView.OnDropDownListener;
 
 import android.content.Intent;
 import android.os.AsyncTask;

@@ -7,9 +7,6 @@ import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-import cn.trinea.android.common.view.DropDownListView;
-import cn.trinea.android.common.view.DropDownListView.OnDropDownListener;
-
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.listener.PauseOnScrollListener;
 import com.vrtart.ArtAuctionActivity;
@@ -26,6 +23,8 @@ import com.vrtart.models.Commend;
 import com.vrtart.models.Information;
 import com.vrtart.tools.DataTools;
 import com.vrtart.webServe.GetArtHttp;
+import com.wt.common.view.DropDownListView;
+import com.wt.common.view.DropDownListView.OnDropDownListener;
 
 import android.content.Intent;
 import android.os.AsyncTask;

@@ -23,7 +23,7 @@
             android:textColor="@color/black" />
     </LinearLayout>
 
-    <cn.trinea.android.common.view.BorderScrollView
+    <com.wt.common.view.BorderScrollView
         android:id="@+id/scrollView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -133,13 +133,13 @@
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
-            <com.vrtart.view.ArtListView
+            <com.sevenart.view.ArtListView
                 android:id="@+id/newsListLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/aboutNews"
                 android:orientation="vertical" >
-            </com.vrtart.view.ArtListView>
+            </com.sevenart.view.ArtListView>
 
             <View
                 android:id="@+id/line1"
@@ -174,15 +174,15 @@
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
-            <com.vrtart.view.ArtListView
+            <com.sevenart.view.ArtListView
                 android:id="@+id/commentListLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/aboutComment"
                 android:orientation="vertical" >
-            </com.vrtart.view.ArtListView>
+            </com.sevenart.view.ArtListView>
         </RelativeLayout>
-    </cn.trinea.android.common.view.BorderScrollView>
+    </com.wt.common.view.BorderScrollView>
 
     <TextView
         android:id="@+id/back"

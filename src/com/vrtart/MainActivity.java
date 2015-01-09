@@ -5,7 +5,6 @@ import java.util.List;
 
 import cn.jpush.android.api.JPushInterface;
 
-import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.vrtart.R;
 import com.vrtart.adapter.ArtMainViewPagerAdapter;
@@ -24,6 +23,7 @@ import com.vrtart.view.DrawerView;
 import com.vrtart.webServe.ArtCookieStore;
 import com.vrtart.webServe.GetArtHttp;
 import com.vrtart.webServe.GetArtJson;
+import com.wt.slidingmenu.lib.SlidingMenu;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

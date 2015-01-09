@@ -137,13 +137,13 @@
             android:background="#C0C0C0" />
     </LinearLayout>
 
-    <cn.trinea.android.common.view.DropDownListView
+    <com.wt.common.view.DropDownListView
         android:id="@+id/show_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:drawSelectorOnTop="false"
-        listViewAttr:isDropDownStyle="false"
-        listViewAttr:isOnBottomStyle="false" >
-    </cn.trinea.android.common.view.DropDownListView>
+        listViewAttr:isDropDownStyle="true"
+        listViewAttr:isOnBottomStyle="true" >
+    </com.wt.common.view.DropDownListView>
 
 </LinearLayout>

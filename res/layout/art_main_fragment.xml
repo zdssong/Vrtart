@@ -31,7 +31,7 @@
         android:textColor="@color/black"
         android:visibility="gone" />
 
-    <cn.trinea.android.common.view.DropDownListView
+    <com.wt.common.view.DropDownListView
         android:id="@+id/list_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

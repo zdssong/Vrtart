@@ -81,7 +81,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1.0"
             android:drawableTop="@drawable/paimaib"
-            android:text="我的" />
+            android:text="拍卖" />
 
         <RelativeLayout
             android:layout_width="0dp"
@@ -117,7 +117,7 @@
                     android:layout_weight="1.0"
                     android:gravity="center"
                     android:layout_gravity="center_vertical"
-                    android:text="已结束"
+                    android:text="成交"
                     android:textColor="@color/common_btn_text_white"
                     android:textSize="18sp" />
 
@@ -146,7 +146,7 @@
                     android:layout_gravity="center_vertical"
                     android:layout_weight="1.0"
                     android:gravity="center"
-                    android:text="未参与"
+                    android:text="未出价"
                     android:textColor="@color/common_btn_text_white"
                     android:textSize="18sp" />
 

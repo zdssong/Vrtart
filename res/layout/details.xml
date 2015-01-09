@@ -68,7 +68,7 @@
             android:text="加载中..." />
     </LinearLayout>
 
-    <cn.trinea.android.common.view.BorderScrollView
+    <com.wt.common.view.BorderScrollView
         android:id="@+id/scrollView"
         style="@style/detail_activity"
         android:layout_width="match_parent"
@@ -260,7 +260,7 @@
                 android:orientation="vertical" >
             </com.vrtart.view.ArtListView>
         </RelativeLayout>
-    </cn.trinea.android.common.view.BorderScrollView>
+    </com.wt.common.view.BorderScrollView>
 
     <TextView
         android:id="@+id/back"

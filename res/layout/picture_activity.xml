@@ -42,7 +42,7 @@
         android:textSize="20sp"
         android:textStyle="bold" />
 
-    <com.vrtart.view.touchgallery.GalleryViewPager
+    <com.sevenart.view.touchgallery.GalleryViewPager
         android:id="@+id/viewer"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" />

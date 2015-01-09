@@ -69,7 +69,7 @@
             android:text="加载中..." />
     </LinearLayout>
 
-    <cn.trinea.android.common.view.BorderScrollView
+    <com.wt.common.view.BorderScrollView
         android:id="@+id/scrollView"
         style="@style/detail_activity"
         android:layout_width="match_parent"
@@ -293,7 +293,7 @@
                 android:text="相关新闻"
                 android:textSize="20sp" />
 
-            <com.vrtart.view.ArtListView
+            <com.sevenart.view.ArtListView
                 android:id="@+id/newsListLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -301,7 +301,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:orientation="vertical" >
-            </com.vrtart.view.ArtListView>
+            </com.sevenart.view.ArtListView>
 
             <View
                 android:id="@+id/line1"
@@ -337,7 +337,7 @@
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
-            <com.vrtart.view.ArtListView
+            <com.sevenart.view.ArtListView
                 android:id="@+id/commentListLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -345,9 +345,9 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:orientation="vertical" >
-            </com.vrtart.view.ArtListView>
+            </com.sevenart.view.ArtListView>
         </RelativeLayout>
-    </cn.trinea.android.common.view.BorderScrollView>
+    </com.wt.common.view.BorderScrollView>
 
     <TextView
         android:id="@+id/back"
